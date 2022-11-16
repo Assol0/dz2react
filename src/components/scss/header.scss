@@ -1,0 +1,60 @@
+.wrapper{
+    height: 100vh;
+    background: url('../../assets/header/Rectangle\ 1.svg') no-repeat center;
+    background-size: cover;
+}
+.header {
+    padding: 20px 0;
+}
+
+.item {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    column-gap: 745px;
+}
+.web {
+    padding: 100px 0;
+    text-align: center;
+
+    &__title {
+        padding: 15px 0;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 50px;
+        line-height: 90px;
+        text-transform: uppercase;
+        color: #212733;
+    }
+
+    &__p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        padding-bottom: 52px;
+    }
+
+    &__btn {
+        position: relative;
+        padding: 14px 60px 14px 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        border: 1px #000000 solid;
+        background-color: transparent;
+    }
+    &__a{
+        color: #000000;
+        text-decoration: none;
+    }
+    &__btn::after {
+        content: '>';
+        position: absolute;
+        right: 24px;
+        font-size: 25px;
+        top: 15px;
+    }
+}
