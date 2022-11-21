@@ -6,7 +6,6 @@ import AboutCompany from "./components/AboutCompany/AboutCompany";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Advantages from "./components/Advantages/Advantages";
 
-
 function App() {
   
   return (
@@ -14,8 +13,8 @@ function App() {
      <Header/>
      <AboutCompany/>
      <Portfolio/>
-      <Services/>
-      <Advantages/>
+     <Services/>
+     <Advantages/>
      <Footer/>
      
     </>
